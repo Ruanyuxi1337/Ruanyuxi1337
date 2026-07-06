@@ -36,18 +36,12 @@ Welcome to my space! I am a security researcher and software developer passionat
 ### 📊 GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ruanyuxi1337&show_icons=true&theme=tokyonight&locale=en" alt="Ruanyuxi's GitHub stats" width="48%" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ruanyuxi1337&layout=compact&theme=tokyonight&locale=en" alt="Top Langs" width="48%" />
-  </a>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ruanyuxi1337&show_icons=true&theme=tokyonight&locale=en" alt="Ruanyuxi's GitHub stats" width="48%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ruanyuxi1337&layout=compact&theme=tokyonight&locale=en" alt="Top Langs" width="48%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/ashutoshgandr/github-readme-streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=Ruanyuxi1337&theme=tokyonight" alt="GitHub Streak" width="97%" />
-  </a>
+  <img src="https://streak-stats.demolab.com/?user=Ruanyuxi1337&theme=tokyonight" alt="GitHub Streak" width="97%" />
 </p>
 
 ---
