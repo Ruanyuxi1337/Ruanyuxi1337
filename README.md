@@ -44,10 +44,10 @@
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=Ruanyuxi1337&show_icons=true&theme=tokyonight&locale=en" alt="Ruanyuxi's GitHub stats" width="48%" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ruanyuxi1337&show_icons=true&theme=tokyonight&locale=en" alt="Ruanyuxi's GitHub stats" width="48%" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ruanyuxi1337&layout=compact&theme=tokyonight&locale=en" alt="Top Langs" width="48%" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ruanyuxi1337&layout=compact&theme=tokyonight&locale=en" alt="Top Langs" width="48%" />
   </a>
 </p>
 
