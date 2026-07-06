@@ -1,13 +1,6 @@
-<h1 align="center">Hi, I'm Ruanyuxi 👋</h1>
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Security+Researcher;Software+Developer;Automation+Enthusiast" alt="Typing SVG" />
-  </a>
-</p>
+# Hi there, I'm Ruanyuxi 👋
 
-<p align="center">
-  Welcome to my space! I am a security researcher and software developer passionate about program analysis, vulnerability research, and automating security workflows. I enjoy dissecting complex systems, understanding how they fail, and building tools to make them more resilient.
-</p>
+Welcome to my space! I am a security researcher and software developer passionate about program analysis, vulnerability research, and automating security workflows. I enjoy dissecting complex systems, understanding how they fail, and building tools to make them more resilient.
 
 ---
 
@@ -53,7 +46,7 @@
 
 <p align="center">
   <a href="https://github.com/ashutoshgandr/github-readme-streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ruanyuxi1337&theme=tokyonight" alt="GitHub Streak" width="97%" />
+    <img src="https://streak-stats.demolab.com/?user=Ruanyuxi1337&theme=tokyonight" alt="GitHub Streak" width="97%" />
   </a>
 </p>
 
