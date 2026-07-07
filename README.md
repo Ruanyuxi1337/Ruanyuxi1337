@@ -1,43 +1,77 @@
-# Hi there, I'm Ruanyuxi 👋
+# Ruanyuxi 🌐
+### AI Platform & Infrastructure Engineer | Security Researcher
 
-Welcome to my space! I am a security researcher and software developer passionate about program analysis, vulnerability research, and automating security workflows. I enjoy dissecting complex systems, understanding how they fail, and building tools to make them more resilient.
-
----
-
-### 🛠️ Tech Stack & Tooling
-
-<p align="left">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Shell_Script-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-</p>
-<p align="left">
-  <!-- Infrastructure & Tools -->
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
+*Building reliable, high-performance, and secure environments for Autonomous Agents.*
 
 ---
 
-### 📖 Currently Exploring & Learning
+## 🚀 About Me
 
-- 🚀 **Rust for Systems Programming:** Building high-performance, memory-safe network tools and security utilities.
-- 🔍 **Advanced Program Analysis:** Exploring symbolic execution (using `angr`) and dynamic binary instrumentation to automate bug hunting.
-- ⚙️ **DevSecOps Integration:** Designing automated vulnerability reproduction and verification pipelines in CI/CD environments.
+I am an **AI Platform & Infrastructure Engineer** and **Security Researcher** specializing in autonomous agent runtimes, sandbox escape prevention, high-performance API gateways, and anti-detection automation.
+
+Unlike traditional developers, I adopt a strictly **AI-Native & Vibe Coding Workflow**, leveraging agentic loops to accelerate engineering iteration while maintaining institutional-grade robustness in testing, sandboxing, and deployment.
+
+- 🏗️ **AI Infrastructure**: Designing sandboxed runtimes (Node.js/Docker) and dual-SQLite messaging conduits.
+- ⚡ **Backend Engine**: Creating concurrent, rate-limited FastAPI gateway routers and Redis distributed locking states.
+- 🔒 **Offensive Security & Evasion**: Advanced binary program analysis, IDA Pro decompilation, and spoofing browser fingerprinters (TLS/Canvas/WebGL) to bypass cloud WAFs.
 
 ---
 
-### 📊 GitHub Stats
+## 🛠️ Tech Stack & Tooling
+
+```
+  Languages         : Python, Go, Node.js/TypeScript, C++, Bash
+  AI Engine         : ReAct Loop, MCP (Model Context Protocol), Graph of Agents, Prompt Engineering
+  Platform & Cloud  : Docker, Docker Compose, AWS (EC2, VPC, SG), Cloudflare (Workers, WAF, DNS)
+  Data & Cache      : Redis (Lua locking, sliding rate-limiters), PostgreSQL, SQLite, SQLAlchemy 2.0
+  Security Auditing : IDA Pro, Ghidra, Inline Hooking (Trampoline), Web fingerprint spoofing
+```
+
+---
+
+## 🎨 AI-Native Engineering Workflow
+
+I design systems by orchestrating agents and enforcing strict human-in-the-loop verification policies:
+
+```
+┌──────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
+│ Requirement Analysis │ ───> │ Task Decomposition Plan │ ───> │ Claude Code & Cursor    │
+└──────────────────────┘      └─────────────────────────┘      └────────────┬────────────┘
+                                                                            │
+                                                                            v
+┌──────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
+│ Production Deploy    │ <─── │ Multi-Agent E2E Testing │ <─── │ Human Approval Gate     │
+│ CF WAF + AWS EC2     │      │ Pytest / Ruff Checks    │      │ (Permission Hooks)      │
+└──────────────────────┘      └─────────────────────────┘      └─────────────────────────┘
+```
+
+---
+
+## 📁 Featured Projects
+
+### ⚡ [agent-service](https://github.com/Ruanyuxi1337/agent-service)
+*Production-grade asynchronous AI ReAct loop gateway service.*
+- **Concurrency Safeguard**: Leverages **Redis distributed locks** via Lua scripts to stop race conditions on conversational states.
+- **SSE Stream & Connection Reclamation**: Catches `asyncio.CancelledError` on client disconnection to instantly propagate termination signals up to LLM queries and release computing quotas.
+- **Observer RAG Evaluation**: Computes real-time token intersection recall indexes dynamically in an asynchronous queue.
+
+### 📦 [nanoclaw (feature-custom-security)](https://github.com/Ruanyuxi1337/nanoclaw)
+*Hardened agent container hosting runtime based on Node.js and Docker SDK.*
+- **Directory Traversal Fix**: Implemented the `isSafePath` verification method in TypeScript MCP handler to stop arbitrary files from escaping out of `/workspace/agent`.
+- **Zero-Contention IPC**: Dual-DB architecture (`inbound.db` / `outbound.db`) separating reader/writer processes to scale container tasks concurrently.
+
+### 🎭 [browser-automation](https://github.com/Ruanyuxi1337/browser-automation)
+*Anti-fingerprinting, high-entropy web scraping automation engine.*
+- **Low-Level Spoofing**: Rebuilt core Selenium capabilities using Camoufox browser to fake JA3/JA4 TLS handshake states, Canvas renders, and audio entropy.
+- **Bezier Trajectory Profiling**: Custom interpolation simulating muscle deceleration to bypass Cloudflare behavioral anomaly WAF checks.
+
+---
+
+## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ruanyuxi1337&show_icons=true&theme=tokyonight&locale=en" alt="Ruanyuxi's GitHub stats" width="48%" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ruanyuxi1337&layout=compact&theme=tokyonight&locale=en" alt="Top Langs" width="48%" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ruanyuxi1337&show_icons=true&theme=tokyonight&locale=en" alt="Ruanyuxi's GitHub stats" width="48%" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ruanyuxi1337&layout=compact&theme=tokyonight&locale=en" alt="Top Langs" width="48%" />
 </p>
 
 <p align="center">
@@ -46,11 +80,7 @@ Welcome to my space! I am a security researcher and software developer passionat
 
 ---
 
-### 📫 Let's Connect
+## 📬 Connect With Me
 
 - **Email:** [abyssrift1337@gmail.com](mailto:abyssrift1337@gmail.com)
 - **GitHub:** [@Ruanyuxi1337](https://github.com/Ruanyuxi1337)
-
-<p align="center">
-  <i>“Seek simplicity, and distrust it.”</i>
-</p>
