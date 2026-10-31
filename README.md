@@ -49,6 +49,12 @@ I design systems by orchestrating agents and enforcing strict human-in-the-loop 
 
 ## 📁 Featured Projects
 
+### 🧩 [newapi-operator](https://github.com/Ruanyuxi1337/newapi-operator)
+*New API 管理 MCP — an admin control plane for a self-hosted AI gateway.*
+- **Coverage**: 47 curated tools over channels, downstream keys, users, quota, pricing and logs, plus `api_request` / `api_endpoints` for the full 312-route admin surface.
+- **Stays current**: the route table is generated from upstream `router/*.go` and checked against every New API release, so the tool set does not silently fall behind.
+- **Operable**: read-only mode, `/api/*` path allowlist, credential redaction, stdio + Streamable HTTP, prebuilt binaries. `Go` · `MIT` · [v0.1.1](https://github.com/Ruanyuxi1337/newapi-operator/releases)
+
 ### ⚡ [agent-service](https://github.com/Ruanyuxi1337/agent-service)
 *Production-grade asynchronous AI ReAct loop gateway service.*
 - **Concurrency Safeguard**: Leverages **Redis distributed locks** via Lua scripts to stop race conditions on conversational states.
@@ -59,11 +65,6 @@ I design systems by orchestrating agents and enforcing strict human-in-the-loop 
 *Hardened agent container hosting runtime based on Node.js and Docker SDK.*
 - **Directory Traversal Fix**: Implemented the `isSafePath` verification method in TypeScript MCP handler to stop arbitrary files from escaping out of `/workspace/agent`.
 - **Zero-Contention IPC**: Dual-DB architecture (`inbound.db` / `outbound.db`) separating reader/writer processes to scale container tasks concurrently.
-
-### 🎭 [browser-automation](https://github.com/Ruanyuxi1337/browser-automation)
-*Anti-fingerprinting, high-entropy web scraping automation engine.*
-- **Low-Level Spoofing**: Rebuilt core Selenium capabilities using Camoufox browser to fake JA3/JA4 TLS handshake states, Canvas renders, and audio entropy.
-- **Bezier Trajectory Profiling**: Custom interpolation simulating muscle deceleration to bypass Cloudflare behavioral anomaly WAF checks.
 
 ---
 
